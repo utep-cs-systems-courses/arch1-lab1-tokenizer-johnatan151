@@ -1,3 +1,4 @@
+
 #ifndef _HISTORY_
 #define _HISTORY_
 
@@ -30,5 +31,7 @@ void print_history(List *list);
 
 /*Free the history list and the strings it references. */
 void free_history(List *list);
+
+int str_length(char *str){}
 
 #endif
